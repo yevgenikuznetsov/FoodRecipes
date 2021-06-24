@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+.navbar-brand {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: 'Alike Angular', serif;
+}
+
+.nav-link {
+  margin-left: 50%;
+  font-family: 'Alike Angular', serif;
+}
+
+.form-inline {
+  width: 20%;
+  margin-right: 10%;
+  font-family: 'Alike Angular', serif;
+}

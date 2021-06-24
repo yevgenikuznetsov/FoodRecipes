@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+.form-control {
+  font-family: 'Alike Angular', serif;
+  border: 1px solid #d5dae2;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10%;
+  margin-top: 3px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #919aa3;
+}
+
+.form-control::-moz-placeholder {
+  color: #919aa3;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #919aa3;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #919aa3;
+}
+
+.form-control::placeholder {
+  color: #919aa3;
+}
+
+.search-btn {
+  margin-left: 34%;
+  padding: 13px 20px 12px;
+  border: 1px solid rgba(105, 66, 247, 0.452);
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 4px;
+  font-size: 23px;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 24px;
+  font-family: 'Alike Angular', serif;
+}
+
+.search-btn:hover {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+
+}
+
+.sr-only {
+  margin-left: 9%;
+  margin-bottom: 2px;
+  font-family: 'Alike Angular', serif;
+}
+
+#title {
+  margin-left: 10px;
+  margin-top: 20%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Alike Angular', serif;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+.card-body {
+  padding: 10px;
+}
+
+.recipe-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Alike Angular', serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-img-top {
+  padding: 3px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.material-icons {
+  margin-left: auto;
+  color: rgb(243, 170, 170);
+  margin-right: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}

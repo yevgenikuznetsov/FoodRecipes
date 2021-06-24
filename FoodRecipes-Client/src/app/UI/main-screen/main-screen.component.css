@@ -1,0 +1,62 @@
+@keyframes ldio-c96rze72a4f {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.loading {
+  position: fixed;
+  top: 40%;
+  left: 45%;
+}
+
+.ldio-c96rze72a4f div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 20px solid #8dcaf3;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+
+.ldio-c96rze72a4f div {
+  animation: ldio-c96rze72a4f 1s linear infinite;
+  top: 100px;
+  left: 100px
+}
+
+.loadingio-spinner-rolling-48129xofsqq {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.ldio-c96rze72a4f {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-c96rze72a4f div {
+  box-sizing: content-box;
+}
+
+.vertical {
+  border-left: 2px solid rgba(137, 165, 206, 0.144);
+  height: 100%;
+  position: absolute;
+  left: 20%;
+  margin-left: -3px;
+  top: 8%;
+  bottom: 8%;
+}

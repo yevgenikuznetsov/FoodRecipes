@@ -1,0 +1,15 @@
+<div class="card shadow-sm">
+    <a class="recipe-link" (click) = "getRecipe()">
+        <img class="card-img-top" src={{recipe.image}} alt="recipe image" style="height: 200px;">
+        <div class="card-body">
+            <p class="card-text">{{recipe.title}}</p>
+        </div>
+    </a>
+    <span *ngIf="!isFavorite; else favorite" class="material-icons" (click)="clickOnFavorite()" style="cursor: pointer;">favorite</span>
+    
+    <ng-template #favorite>
+        <span class="material-icons" (click)="clickOnFavorite()" style="color: rgb(245, 40, 74);">favorite</span>
+    </ng-template>
+</div>
+
+

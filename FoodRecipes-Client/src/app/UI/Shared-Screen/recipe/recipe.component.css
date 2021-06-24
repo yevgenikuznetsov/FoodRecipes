@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: 'Alike Angular', serif;
+}
+
+.img {
+  max-height: 250px;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-radius: 10%;
+
+}
+
+.sub-title {
+  font-size: 23px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  font-family: 'Alike Angular', serif;
+}
+
+.summary {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 30px;
+  font-family: 'Alike Angular', serif;
+}
+
+.img {
+  display: flex;
+  background-size: cover;
+  align-items: flex-end;
+}
+
+p {
+  cursor: pointer;
+  margin-left: 50%;
+  margin-top: 15px;
+  font-size: 30px;
+  color: rgb(243, 170, 170);
+}

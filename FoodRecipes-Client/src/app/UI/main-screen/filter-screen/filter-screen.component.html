@@ -1,0 +1,41 @@
+<div style="margin-left: 5px;">
+    <p id="title">Filter Recipes</p>
+
+    <form [formGroup]="filterForm" (ngSubmit)="onSubmitFilter()">
+        <div class="form-group">
+            <div class="form-group mb-4">
+                <label class="sr-only">Diet:</label>
+                <select formControlName="dietFormControl" class="form-control">
+                    <option [ngValue]="" disabled>Choose your Diet</option>
+                    <option *ngFor="let diet of allDiet" [ngValue]="diet">
+                        {{ diet }}
+                    </option>
+                </select>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label class="sr-only">Category:</label>
+                <select formControlName="categoryFormControl" class="form-control">
+                    <option [ngValue]="" disabled>Choose Category</option>
+                    <option *ngFor="let category of allCategory" [ngValue]="category">
+                        {{ category }}
+                    </option>
+                </select>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label class="sr-only">Cousin:</label>
+                <select formControlName="cousinFormControl" class="form-control">
+                    <option [ngValue]="" disabled>Choose Cousin</option>
+                    <option *ngFor="let cousin of allCousin" [ngValue]="cousin">
+                        {{ cousin }}
+                    </option>
+                </select>
+            </div>
+        </div>
+        
+        <input name="search" id="search" class="btn btn-block search-btn mb-4" type="submit" value="Search">
+    </form>
+</div>
+
+
